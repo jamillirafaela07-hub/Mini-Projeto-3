@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Minha To-Do</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <main class="app">
+
+    <header>
+      <h1>🌸 Minha To-Do 🌸</h1>
+    </header>
+
+    <!-- TELA 1 — CRIAR TAREFA -->
+    <section id="tela-criar">
+      <h2>Criar Tarefa</h2>
+
+      <form id="task-form">
+        <input type="text" id="title" placeholder="Título" required>
+        <input type="text" id="description" placeholder="Descrição" required>
+
+        <select id="status">
+          <option value="a fazer">A fazer</option>
+          <option value="em andamento">Em andamento</option>
+          <option value="concluída">Concluída</option>
+        </select>
+
+        <button type="submit">Adicionar</button>
+      </form>
+    </section>
+
+    <!-- TELA 2 — PAINEL DE TAREFAS -->
+    <section id="tela-painel" hidden>
+      <h2>Painel de Tarefas</h2>
+
+      <!-- Buscar por ID -->
+      <div class="buscar">
+        <input type="number" id="buscar-id" placeholder="Buscar por ID">
+        <button id="btn-buscar">Buscar 🔍</button>
+      </div>
+
+      <!-- Lista de tarefas -->
+      <section id="task-list"></section>
+
+      <button id="btn-voltar">⬅️ Voltar</button>
+    </section>
+
+  </main>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
