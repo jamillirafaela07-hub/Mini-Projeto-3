@@ -19,7 +19,7 @@ Access to fetch at 'http://localhost:3000/tarefas'
 from origin 'http://127.0.0.1:5500'
 has been blocked by CORS policy
 
-O que isso significa?
+- O que isso significa?
 O navegador bloqueou a comunicação entre o front-end e a API porque o servidor não estava configurado corretamente para aceitar requisições de outra origem.
 Esse erro ocorre quando:
 - O front roda em uma porta/origem diferente da API
@@ -30,20 +30,20 @@ Como consequência:
 - As requisições fetch falham antes de chegar à API
 
 Status atual do projeto
-✔️ Estrutura do front-end concluída
-✔️ Estrutura da API definida
-⚠️ Integração front ↔ API em ajuste devido ao CORS
+- Estrutura do front-end concluída
+- Estrutura da API definida
+- Integração front ↔ API em ajuste devido ao CORS
 
-Observação importante
+- Observação importante
 Peço desculpas por o projeto não estar funcionando completamente no momento.
 Esse desafio fez parte do meu processo de aprendizado com APIs e integração front-end/back-end, e o erro identificado já faz parte dos próximos ajustes planejados.
 Mesmo com esse obstáculo, o projeto foi essencial para consolidar conceitos importantes de desenvolvimento web.
 
 Próximos passos
-Corrigir a configuração de CORS no servidor
-Garantir a navegação correta entre telas
-Melhorar feedback visual no front-end
-Finalizar testes de todas as rotas da API
+- Corrigir a configuração de CORS no servidor
+- Garantir a navegação correta entre telas
+- Melhorar feedback visual no front-end
+- Finalizar testes de todas as rotas da API
 
 ✨ Projeto desenvolvido para fins de estudo e evolução contínua.
 
