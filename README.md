@@ -2,7 +2,7 @@ Minha To-Do List (Front-end + API)
 
 Este projeto é uma aplicação de lista de tarefas (To-Do List) desenvolvida com HTML, CSS e JavaScript (ES Modules), integrada a uma API REST criada em Node.js + Express.
 
-Funcionalidades planejadas
+Funcionalidades
 
 A API e o front-end foram estruturados para suportar as seguintes operações:
 - Criar uma tarefa (POST /tarefas)
